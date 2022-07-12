@@ -1,0 +1,79 @@
+.calculatorContainer{
+  display: flex;
+  min-height: 95vh;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: azure;
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+
+.display {
+  height: 100px;
+  width: 400px;
+  border: 1px solid black;
+}
+
+.inputs{
+  height: 450px;
+  width: 400px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.erase {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.numbersAndOperation {
+  display: flex;
+  flex: 1;
+}
+
+.operation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 4px;
+}
+
+.numbers{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+div > button {
+  width: 90px;
+  height: 40px;
+}
+
+.numbers > div {
+  display: flex;
+  justify-content: space-around
+}
+
+.erase button {
+  width: 100px;
+  height: 40px;
+}
+
+.displaySum {
+border: 1px solid black;
+height: 85px;
+margin: 5px;
+display: flex;
+/* text-align: right; */
+align-items: center;
+flex-direction: row-reverse;
+font-size: 48px;
+}
